@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="AccountModule" lang="eng">
+    <head>
+        <title>info303</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-resource.min.js"></script>
+        <script src="js/client.js"></script>
+        <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+    </head>
+    <body>
+        <div ng-controller="AccountController as accCtrl">
+            <h1>Create an Account</h1>
+            <fieldset>
+                <legend>Account Details</legend>
+                <form ng-submit="accCtrl.createAccount(account)">
+                    <label>Email</label>
+                    <label>
+                        <input type="text" ng-model="account.email">
+                    </label>
+                    <label>Username</label>
+                    <label>
+                        <input type="text" ng-model="account.username">
+                    </label>
+                    <label>First Name</label>
+                    <label>
+                        <input type="text" ng-model="account.firstname">
+                    </label>
+                    <label>Last Name</label>
+                    <label>
+                        <input type="text" ng-model="account.lastname">
+                    </label>
+                    <button>Create Account</button>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>
