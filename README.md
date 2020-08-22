@@ -14,4 +14,5 @@ who are also registered members of CRAS.
 The INFO303 Vend store is available at: [Vend INFO303](https://info303otago.vendhq.com/)
 
 [Project Phase 1 Description](INFO303_Phase1.pdf)
+and
 [Project Phase 2 Description](INFO303_Phase2.pdf)
